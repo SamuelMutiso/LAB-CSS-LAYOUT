@@ -24,4 +24,24 @@
     height: auto;
     border-radius: 8px;
 }
+ 
+/* this is for the paragraphs within eacg cat breed card */
+.cat-breed p {
+margin: 0.5em 0 1em;
+}
+
+/* NOW WE MAKING THE LAYOUT RESPONSIVE */
+@media (max-width: 768px) {
+    .cat-container {. /* setting flex direction for the cat breed to container */
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cat-breed {  /* here im ensuring each card takes up the full width */
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+}
+
 
