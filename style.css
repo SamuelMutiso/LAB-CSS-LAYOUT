@@ -15,7 +15,7 @@
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     text-align: center;
-    transition: transition 0.3s;
+    transition: transform 0.3s;
 }
 
 /* this is for the images with each cat breed card */
@@ -25,6 +25,11 @@
     border-radius: 8px;
 }
  
+.cat-breed h3 {
+    margin: 0.5em 0;
+}
+
+
 /* this is for the paragraphs within eacg cat breed card */
 .cat-breed p {
 margin: 0.5em 0 1em;
